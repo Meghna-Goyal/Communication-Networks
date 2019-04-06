@@ -1,0 +1,3 @@
+Evaluation of Round Trip Time (RTT):
+
+Station-A wants to find the total RTT that a packet undergoes over the path towards Station-B. The propagation delay (tprop) is different in both directions that impacts the RTT. For this purpose Station-A sends a special control packet towards Station-B at a specific point in time, and the Station-B immediately sends back a reply packet towards Station-A. Assume that processing delay at Station-B is zero (i.e., tproc = 0). The Station-A after receiving the reply packet should be able to determine the tprop in both directions, and from that determine the RTT
